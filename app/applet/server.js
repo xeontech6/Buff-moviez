@@ -388,7 +388,7 @@ app.get('/manifest.webmanifest', (req, res) => {
     if (fs.existsSync(manifestPath)) {
         res.json(require(manifestPath));
     } else {
-        res.json({ name: 'Netflix' });
+        res.json({ name: 'Sl-flix' });
     }
 });
 
@@ -411,7 +411,7 @@ app.get(/^\/admin/, (req, res) => {
 
 const PORT = 3000;
 httpServer.listen(PORT, "0.0.0.0", () => {
-    console.log(`\n🚀 Netflix Server running on http://localhost:${PORT}`);
+    console.log(`\n🚀 Slflix Server running on http://localhost:${PORT}`);
     console.log(`📊 Full production app ready!`);
 });
 
