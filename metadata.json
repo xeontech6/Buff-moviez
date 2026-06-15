@@ -1,6 +1,0 @@
-{
-  "name": "SL-FLIX",
-  "description": "A premium movie and series streaming application with real-time episode detection.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
