@@ -2,7 +2,7 @@
 
 import { MovieResult } from '../types';
 
-const SITE_NAME = 'SL-FLIX';
+const SITE_NAME = 'BUFF-MOVIEZ';
 const SITE_URL = typeof window !== 'undefined' ? window.location.origin : 'https://netflix-clone.web.app';
 const DEFAULT_IMAGE = 'https://files.catbox.moe/lhdbe0.png';
 const DEFAULT_DESCRIPTION = 'Watch Movies, TV Series & Anime Online Free in HD. Stream latest films and shows without registration.';
