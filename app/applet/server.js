@@ -411,7 +411,7 @@ app.get(/^\/admin/, (req, res) => {
 
 const PORT = 3000;
 httpServer.listen(PORT, "0.0.0.0", () => {
-    console.log(`\n🚀 Slflix Server running on http://localhost:${PORT}`);
+    console.log(`\n🚀 BUFFMOVIEZ Server running on http://localhost:${PORT}`);
     console.log(`📊 Full production app ready!`);
 });
 
